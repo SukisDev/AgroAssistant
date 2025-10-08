@@ -6,7 +6,6 @@ Sistema modular de asistencia agrícola para agricultores panameños.
 Proporciona información sobre cultivos, análisis climático, visualizaciones
 y recomendaciones basadas en datos.
 
-Versión: 2.0 (Modularizada)
 Autores: Pandas con flow
 Fecha: 2025
 """
@@ -43,7 +42,7 @@ class AsistenteAgricola:
     
     def __init__(self, root):
         self.root = root
-        self.root.title("Asistente para Agricultores - Panamá v2.0")
+        self.root.title("Asistente para Agricultores - Panamá")
         self.root.geometry("1000x800")
         self.root.minsize(800, 600)
         
@@ -231,7 +230,6 @@ SISTEMA AGRÍCOLA PARA PANAMÁ - INFORMACIÓN
 
 ESTADÍSTICAS DEL SISTEMA:
 • Total de cultivos: {len(self.datos_manager.df)}
-• Versión: 2.0 (Modularizada)
 • Base de datos: dataset_cultivos_panama.csv
 
 MÓDULOS ACTIVOS:
@@ -371,7 +369,6 @@ SOLUCIÓN DE PROBLEMAS:
         """Muestra información sobre el sistema"""
         mensaje = """
 ASISTENTE PARA AGRICULTORES - PANAMÁ
-Versión 2.0 (Modularizada)
 
 Sistema de asistencia técnica para agricultores
 basado en datos científicos y análisis estadístico.

@@ -1,5 +1,4 @@
-__version__ = "2.0"
-__author__ = "Sistema Agrícola AI"
+__author__ = "Sistema Agrícola"
 
 # Importaciones de los módulos
 from .datos import DatosManager
